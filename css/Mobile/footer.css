@@ -36,7 +36,7 @@ footer {
             list-style: none;
             li {
               font-family: IRAN;
-              font-size: 2.5vw;
+              font-size: 2.7vw;
               font-weight: normal;
               text-transform: capitalize;
               color: var(--whitelightcolor);
@@ -51,7 +51,7 @@ footer {
                 opacity: 0.6;
                 transition: 500ms;
                 font-family: IRAN;
-                font-size: 2.5vw;
+                font-size: 2.7vw;
                 text-decoration: none;
                 font-weight: normal;
                 text-transform: capitalize;
@@ -101,7 +101,7 @@ footer {
         font-family: IRAN;
         color: var(--whitecolor);
         text-transform: capitalize;
-        font-size: 2.6vw;
+        font-size: 2.8vw;
         font-weight: normal;
         box-sizing: border-box;
       }
@@ -130,7 +130,7 @@ footer {
               color: var(--whitelightcolor);
               font-weight: 400;
               font-family: IRAN;
-              font-size: 2.5vw;
+              font-size: 2.7vw;
             }
             #input-email {
               margin-top: 10px;
@@ -151,13 +151,13 @@ footer {
                 padding-right: 5px;
                 box-sizing: border-box;
                 font-family: IRAN;
-                font-size: 2vw;
+                font-size: 2.2vw;
                 color: rgb(255, 255, 255);
               }
               &:focus {
                 font-weight: normal;
                 font-family: IRAN;
-                font-size: 1vw;
+                font-size: 1.5vw;
                 cursor: none;
                 color: var(--basecolor);
                 outline: 2px solid rgb(82, 173, 82);
