@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  perspective: 800;
+}
+
+@font-face {
+  font-family: IRAN;
+  src: url(../fonts/IRAN/IRANYekanWeb-Medium.eot);
+  src: url(../fonts/IRAN/IRANYekanWeb-Medium.ttf);
+  src: url(../fonts/IRAN/IRANYekanWeb-Medium.woff);
+  src: url(../fonts/IRAN/IRANYekanWeb-Medium.woff2);
+}
+
+:root {
+  --bordercolor: #d5d5d5d3;
+  --borderradius: 5px;
+  --graycolor: rgb(52, 55, 52);
+  --whitecolor: rgb(255, 255, 255);
+  --shadow:lightgrey;
+  --discountcolor:crimson;
+  --darkdiscountcolor:rgb(255, 0, 4);
+  --whitelightcolor: rgb(255, 255, 255);
+  --basecolor: linear-gradient(
+    113deg,
+    rgba(0, 139, 139, 1) 28%,
+    rgba(38, 241, 186, 1) 90%
+  );
+  --bluecolor:rgba(0, 139, 139, 1);
+  /* --inputcolor: rgba(248, 248, 248, 0.435); */
+  --darkcolor: linear-gradient(
+    22deg,
+    rgba(0, 139, 139, 1) 6%,
+    rgba(0, 139, 139, 1) 6%,
+    /* rgba(25, 150, 153, 1) 14%, */ rgba(35, 155, 159, 1) 16%,
+    rgba(43, 159, 164, 1) 22%,
+    rgba(69, 170, 179, 1) 34%,
+    rgba(93, 181, 193, 1) 42%,
+    rgba(126, 195, 209, 1) 58%,
+    rgba(135, 199, 215, 1) 67%,
+    rgba(118, 192, 204, 1) 88%,
+    rgba(125, 195, 209, 1) 90%,
+    rgb(102, 212, 227) 100%,
+    rgb(167, 249, 255) 100%
+  );
+}
+
+.wrapper {
+  width: 100%;
+}

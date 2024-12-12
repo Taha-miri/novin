@@ -1,0 +1,49 @@
+header {
+  width: 100%;
+  height: 6vw;
+  background: var(--darkcolor);
+  position: sticky;
+  justify-content: space-between;
+  nav {
+    height: 100%;
+    ul {
+      flex-flow: row nowrap;
+      justify-content: center;
+      gap: 3%;
+      height: 100%;
+      li {
+        width: fit-content;
+        &:hover {
+          background-color: unset;
+        }
+        a {
+          font-size: 1.3vw;
+          transition: 400ms;
+          &:hover {
+            color: var(--graycolor);
+          }
+        }
+      }
+    }
+  }
+}
+
+input#show,
+input#close,
+label[for="show"],
+label[for="close"],
+.close,
+.showmtb {
+  display: none;
+}
+
+.desktop-menu {
+  display: unset;
+  height: 110%;
+  padding-right: 10px;
+  box-sizing: border-box;
+  img {
+    height: 100%;
+    transform: scale(1);
+  }
+}

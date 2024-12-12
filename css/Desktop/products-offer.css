@@ -1,0 +1,206 @@
+.products-offer {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  padding: 1.2vw 0.9vw;
+  box-sizing: border-box;
+  h2 {
+    display: block !important;
+    width: 100vw;
+    height: 3vw;
+    line-height: 3vw;
+    font-family: IRAN;
+    font-size: 1.8vw;
+    font-weight: normal;
+  }
+  .item-products-offer {
+    width: 18vw;
+    height: 30vw;
+    border-radius: 10px;
+    border: 2px solid var(--bordercolor);
+    box-sizing: border-box;
+    box-shadow: 6px 5px 25px var(--shadow);
+    transition: 450ms;
+    &:hover > a > .discount {
+      background-color: var(--darkdiscountcolor);
+    }
+    &:hover {
+      box-shadow: 6px 5px 25px var(--graycolor);
+      transform: scale(102%, 102%);
+    }
+    &:hover
+      > a
+      > .item-products-offer-title
+      > .item-products-offer-more
+      > .item-products-offer-more-btn {
+      transform: translate(0%, 0%);
+    }
+    a {
+      position: relative;
+      text-decoration: unset;
+      &:hover > .cover {
+        opacity: 0.9;
+      }
+      .cover {
+        all: unset;
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        transition: 600ms;
+        background-color: var(--graycolor);
+        &:hover > h2 {
+          transform: translateY(0);
+          opacity: 1;
+        }
+        &:hover > h3 {
+          &:nth-of-type(1) {
+            transition: 600ms;
+            transform: translateY(0%);
+            opacity: 1;
+          }
+          &:nth-last-of-type(1) {
+            opacity: 1;
+            transform: translateY(0%);
+          }
+          &:nth-last-of-type(2) {
+            opacity: 1;
+            transform: translateY(0%);
+          }
+        }
+        h2 {
+          width: 100%;
+          transition: 500ms;
+          transform: translateY(100%);
+          color: var(--whitelightcolor);
+          text-align: center;
+          height: 25%;
+        font-size: 1.8vw;
+        padding: 2vw;
+          font-family: IRAN;
+          font-weight: normal;
+          box-sizing: border-box;
+          opacity: 0;
+        }
+        h3 {
+          text-align: center;
+          color: var(--whitelightcolor);
+          height: 25%;
+          padding: 1.5vw 2vw;
+          font-family: IRAN;
+          font-weight: normal;
+          box-sizing: border-box;
+          &:nth-last-of-type(1) {
+            transition: 500ms;
+            transform: translateY(-100%);
+            opacity: 0;
+            span {
+              color: var(--whitelightcolor);
+              border-radius: 10px;
+              padding: 0.5vw 1.3vw;
+              box-sizing: border-box;
+              background-color: green;
+            }
+          }
+          &:nth-last-of-type(2) {
+            transition: 500ms;
+            transform: translateY(100%);
+            opacity: 0;
+          }
+          &:nth-of-type(1) {
+            transition: 500ms;
+            opacity: 0;
+            transform: translateY(-100%);
+          }
+        }
+      }
+      .item-products-offer-img {
+        width: 100%;
+        height: 60%;
+        img {
+          width: 100%;
+          height: 100%;
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+      }
+      .item-products-offer-title {
+        width: 100%;
+        height: 40%;
+        .item-products-offer-price {
+          width: 100%;
+          height: 25%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          .item-products-offer-price-price {
+            text-align: left;
+            width: 40%;
+            height: 100%;
+            font-family: IRAN;
+            font-size: 1vw;
+            line-height: 7.9vw;
+            padding-left: 5px;
+            box-sizing: border-box;
+            color: var(--bluecolor);
+          }
+          .item-products-offer-price-title {
+            padding-right: 5px;
+            box-sizing: border-box;
+            color: var(--graycolor);
+            width: 60%;
+            height: 100%;
+            font-family: IRAN;
+            font-size: 1vw;
+            line-height: 7vw;
+          }
+        }
+        .item-products-offer-subject {
+          width: 100%;
+          height: 35%;
+
+          p {
+            width: 100%;
+            height: 100%;
+            padding: 1.8vw;
+            box-sizing: border-box;
+            text-align: right;
+            font-family: IRAN;
+            font-weight: 100;
+            text-transform: capitalize;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-size: 1vw;
+            color: var(--graycolor);
+          }
+        }
+        .item-products-offer-more {
+          display: none;
+        }
+      }
+      .discount {
+        width: 50%;
+        height: 8%;
+        position: absolute;
+        color: var(--whitelightcolor);
+        background-color: var(--discountcolor);
+        transition: 400ms;
+        font-size: 1.5vw;
+        font-family: IRAN;
+        font-weight: 50;
+        transform: translateX(-50%) translateY(-25%);
+        border-radius: 10px;
+        text-align: center;
+        line-height: 2.7vw;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

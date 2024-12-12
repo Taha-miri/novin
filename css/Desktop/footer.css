@@ -1,0 +1,144 @@
+footer {
+  display: flex;
+  .footer {
+    display: flex;
+    flex-flow: column nowrap;
+    .footer-top {
+      display: flex;
+      flex-flow: row nowrap;
+      .footer-item {
+        display: flex;
+        width: 20vw;
+        ul {
+          li {
+            font-size: 1.09vw;
+          }
+        }
+        ul {
+          li {
+            height: 1.9vw;
+
+            a {
+              font-size: 0.85vw;
+            }
+            &:hover {
+              a {
+              }
+            }
+          }
+        }
+      }
+    }
+    .footer-bottom {
+    }
+  }
+}
+
+.padding-footer {
+}
+
+.footer-email {
+  width: 28vw;
+  height: 17vw;
+  .footer-email-top {
+    .text-news {
+      p {
+        font-size: 1vw;
+      }
+    }
+    .footer-email-bottom {
+      height: 80%;
+      .e-mail-login {
+        .body-login {
+          .add-email {
+            padding: 10px 5px 5px 5px;
+            box-sizing: border-box;
+            width: 85%;
+            /* background-color: blueviolet; */
+            height: 100%;
+
+            .logins-label {
+              display: block;
+              margin-bottom: 5px;
+              color: var(--whitelightcolor);
+              font-weight: 400;
+              font-family: IRAN;
+              font-size: 1vw;
+            }
+            #input-email {
+              margin-top: 10px;
+              box-sizing: border-box;
+              max-width: 100%;
+              width: 100%;
+              color: black;
+              background-color: unset;
+              height: 60%;
+              cursor: pointer;
+              border-radius: var(--borderradius);
+              box-shadow: none;
+              border: 2px solid var(--bordercolor);
+              vertical-align: middle;
+              box-shadow: 5px 5px 25px #2b2b2b;
+              font-size: 14px;
+              transition: border-color 0.5s ease-in-out;
+              &::placeholder {
+                padding-right: 5px;
+                box-sizing: border-box;
+                font-family: IRAN;
+
+                font-size: 0.9vw;
+                color: rgb(59, 59, 59);
+              }
+              &:focus {
+                font-weight: normal;
+                font-family: IRAN;
+                font-size: 0.85vw;
+                cursor: none;
+                color: var(--basecolor);
+                outline: 2px solid rgb(82, 173, 82);
+              }
+            }
+          }
+          .sub-email {
+            width: 25%;
+            position: relative;
+            height: 100%;
+            .submit-login {
+              width: 105%;
+              font-family: IRAN;
+              font-size: 0.9vw;
+              height: 35%;
+              border: unset;
+              background-color: rgb(0, 154, 77);
+              border-radius: 10px;
+              color: var(--whitecolor);
+              position: absolute;
+              text-transform: capitalize;
+              cursor: pointer;
+              transform: translateY(30%) translateY(200%);
+              box-shadow: 5px 5px 25px lightgreen;
+              transition: 300ms;
+              &:hover {
+                transform: translateY(30%) translateY(200%) scale(85%);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.footer-end {
+  width: 100%;
+  border-top: 2px solid #28aeac;
+  font-size: 1vw;
+  font-family: IRAN;
+  color: #2d2d2d;
+  padding: 1.3vw 1vw 0vw 1vw;
+  box-sizing: border-box;
+  text-align: center;
+  span {
+    color: #ebebeb;
+    cursor: pointer;
+  }
+}

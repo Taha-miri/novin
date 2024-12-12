@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Tehranovin</title>
+    <link rel="icon" href="./img/logo.png" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- start menu -->
+      <div class="showmtb">
+        <div class="logo"><img src="./img/logo.png" alt="Tehranovin" /></div>
+        <label for="show"
+          ><div></div>
+          <div></div>
+          <div></div
+        ></label>
+      </div>
+
+      <input type="radio" name="menu" id="show" />
+      <header>
+        <div class="desktop-menu">
+          <img src="./img/logo.png" alt="Tehranovin" />
+        </div>
+
+        <nav>
+          <div class="close">
+            <label for="close">&times;</label>
+            <input type="radio" name="menu" id="close" />
+          </div>
+          <ul>
+            <li>
+              <a href="./index.html">صفحه اصلی نوین</a>
+            </li>
+
+            <li>
+              <a href="#">فروشگاه</a>
+            </li>
+            <li>
+              <a href="./index.html">مجله نوین</a>
+            </li>
+            <li>
+              <a href="#">تماس با ما</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- end menu -->
+
+      <div class="contact">
+        <div class="contact-title">
+          <div class="contact-phone">
+            <div class="contact-phone-sub"> اطلاعات شرکت</div>
+            <div class="contact-phone-number">
+              <div class="contact-phone-item"><ul>
+                <li>
+                  <span>شماره تماس</span>
+                  <span></span>
+                </li>
+              </ul></div>
+              <div class="contact-phone-item"></div>
+              <div class="contact-phone-item"></div>
+              <div class="contact-phone-item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- start footer -->
+
+      <footer>
+        <div class="footer">
+          <div class="footer-top">
+            <div class="footer-item">
+              <ul>
+                <li>دسترسی های سریع</li>
+              </ul>
+              <ul>
+                <li><a href="#">سایر تجهیزات</a></li>
+                <li><a href="#">چرخ خرید فروشگاهی</a></li>
+                <li><a href="#">ترولی خرید فروشگاهی</a></li>
+                <li><a href="#">اکسسوری های فروشگاهی</a></li>
+                <li><a href="#">سبد خرید دستی فروشگاهی</a></li>
+                <li><a href="#">گیت ورود و خروج فروشگاهی</a></li>
+                <li><a href="#">سبد خرید چرخدار فروشگاهی</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-item">
+              <ul>
+                <li>ارتباط با ما</li>
+              </ul>
+              <ul>
+                <li><a href="#">آدرس دفتر : تهران </a></li>
+                <li><a href="09127238460">شماره تماس : 09127238460 </a></li>
+                <li><a href="09127238460">شماره پشتیبانی: 09127238460 </a></li>
+
+                <li><a href="#">آدرس کارخانه : تهرن-شهرک صنعتی</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-item padding-footer main-ul">
+              <ul>
+                <li>فهرست اصلی</li>
+              </ul>
+              <ul>
+                <li><a href="#">فروشگاه</a></li>
+                <li><a href="#">مجله نوین</a></li>
+                <li><a href="#">تماس با ما</a></li>
+                <li><a href="./index.html">صفحه اصلی نوین</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-email">
+              <div class="footer-email-top">
+                <div class="text-news">
+                  <p>برای اطلاع از آخرین اخبار و تخفیف ها ثبت نام کنید :</p>
+                </div>
+                <div class="footer-email-bottom">
+                  <form action="#" class="e-mail-login" method="post">
+                    <div class="body-login">
+                      <div class="add-email">
+                        <label class="logins-label">آدرس ایمیل :</label>
+
+                        <input
+                          title="لطفا ایمیل خود را وارد کنید"
+                          id="input-email"
+                          type="email"
+                          name="EMAIL"
+                          placeholder="آدرس ایمیل خود را وارد کنید"
+                        />
+                      </div>
+                      <div class="sub-email">
+                        <input
+                          class="submit-login"
+                          type="submit"
+                          value="ثبت نام کنید"
+                        />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-end">
+            تمامی اطلاعات این سایت متعلق به
+            <span>(شرکت تهران نوین )</span> میباشد ، انتشار و اشتراک گذاری
+            اطلاعات بدون ذکر منبع پیگرد قانونی دارد .
+          </div>
+        </div>
+      </footer>
+
+      <!-- end footer -->
+    </div>
+
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".first-slide", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
