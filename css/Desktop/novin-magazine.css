@@ -12,7 +12,7 @@
         font-size: 2vw;
         color: var(--graycolor);
         display: flex;
-        padding: 2vw;
+        padding: 1vw 8vw 2vw 1vw;
         box-sizing: border-box;
         align-items: center;
         font-weight: normal;
