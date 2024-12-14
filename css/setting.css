@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  perspective: 800;
+  perspective: 8000;
 }
 
 @font-face {
@@ -16,6 +16,7 @@
   --bordercolor: #d5d5d5d3;
   --borderradius: 5px;
   --graycolor: rgb(52, 55, 52);
+  --graycover: rgba(43, 43, 43, 0.621);
   --whitecolor: rgb(255, 255, 255);
   --shadow:lightgrey;
   --discountcolor:crimson;

@@ -1,0 +1,161 @@
+.magazine {
+  width: 100%;
+  padding: 2vw 3vw;
+  box-sizing: border-box;
+  .magazine-base {
+    width: 100%;
+    .magazine-title {
+      height: 15%;
+      width: 100%;
+      h2 {
+        height: 100%;
+        font-size: 2vw;
+        color: var(--graycolor);
+        display: flex;
+        padding: 2vw;
+        box-sizing: border-box;
+        align-items: center;
+        font-weight: normal;
+        font-family: IRAN;
+      }
+    }
+    .magazine-item {
+      width: 100%;
+      height: 85%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 2vw;
+      box-sizing: border-box;
+      .magazine-item-pre {
+        border-radius: 3vw;
+        width: 25vw;
+        height: 25vw;
+        box-sizing: border-box;
+        a {
+          position: relative;
+          text-decoration: none;
+          &:hover > .magazine-item-img > img{
+            transform: scale(1.4);
+          }
+          .magazine-item-img {
+            border-radius: 3vw;
+            width: 100%;
+          overflow: hidden;
+          height: 100%;
+            transition: 500ms;
+            img {
+              border-radius: 3vw;
+            transition: 500ms;
+            width: 100%;
+            }
+            .magazine-item-img-cover {
+              position: absolute;
+              top: 0;
+              border-radius: 3vw;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              align-items: end;
+              padding: 1vw;
+              padding-right: 2vw;
+              box-sizing: border-box;
+              background-color: var(--graycover);
+              .magazing-cover-base {
+                width: 100%;
+                height: 90%;
+                .magazine-cover-title {
+                  width: 100%;
+                  display: flex;
+                  align-items: center;
+                  height: 30%;
+                  span {
+                    font-size: 2vw;
+                    font-family: IRAN;
+                    color: var(--whitelightcolor);
+                  }
+                }
+                .magazine-cover-pre-text {
+                  width: 100%;
+                  display: flex;
+                  align-items: center;
+                  height: 30%;
+                  span {
+                    font-size: 1.2vw;
+                    font-weight: normal;
+                    font-family: IRAN;
+                    color: var(--shadow);
+                  }
+                }
+                .magazine-cover-writer {
+                  height: 20%;
+                  justify-content: space-between;
+                  width: 100%;
+                  display: flex;
+                  .magazine-writer-right {
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    span {
+                      font-family: IRAN;
+                      color: var(--bordercolor);
+                      font-size: 1vw;
+                      &:nth-last-of-type(2) {
+                        color: var(--shadow);
+                        margin-left: 0.5vw;
+                      }
+                    }
+                  }
+                  .magazine-writer-left {
+                    width: 60%;
+                    height: 100%;
+                    display: flex;
+                    .magazine-writer-by {
+                      width: 40%;
+                      font-size: 1vw;
+                      font-weight: normal;
+                      font-family: IRAN;
+                      color: var(--shadow);
+                      height: 100%;
+                      display: flex;
+                      justify-content: end;
+                      align-items: center;
+                    }
+                    .magazine-writer-neme {
+                      height: 100%;
+                      width: 60%;
+                      color: var(--shadow);
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      font-size: 1vw;
+                      font-weight: normal;
+                      font-family: IRAN;
+                    }
+                  }
+                }
+                .magazine-cover-more {
+                  width: 100%;
+                  height: 30%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  .magazine-cover-more-btn {
+                    padding: 1vw;
+                    font-size: 1vw;
+                    font-weight: normal;
+                    font-family: IRAN;
+                    color: #c4edff;
+                    box-sizing: border-box;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
