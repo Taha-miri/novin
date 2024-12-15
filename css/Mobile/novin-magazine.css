@@ -9,10 +9,10 @@
       width: 100%;
       h2 {
         height: 100%;
-        font-size: 2vw;
+        font-size: 4vw;
         color: var(--graycolor);
         display: flex;
-        padding: 1vw 8vw 2vw 1vw;
+        padding: 2vw 5vw 2vw 2vw;
         box-sizing: border-box;
         align-items: center;
         font-weight: normal;
@@ -26,11 +26,11 @@
       flex-flow: row wrap;
       justify-content: center;
       align-items: center;
-      gap: 5vw;
+      gap: 2vw;
       box-sizing: border-box;
       .magazine-item-pre {
-        width: 25vw;
-        height: 25vw;
+        width: 44vw;
+        height: 44vw;
         box-sizing: border-box;
         a {
           position: relative;
@@ -38,30 +38,27 @@
           &:hover > .magazine-item-img > img {
             transform: scale(1.4);
           }
-          &:hover > .magazine-item-img  {
-          box-shadow: 5px 5px 30px #222121a9;
-          }
           .magazine-item-img {
-            border-radius: 3vw;
+            border-radius: 5vw;
             width: 100%;
             overflow: hidden;
             height: 100%;
             transition: 700ms;
             img {
-              border-radius: 3vw;
+              border-radius: 5vw;
               transition: 700ms;
               width: 100%;
             }
             .magazine-item-img-cover {
               position: absolute;
               top: 0;
-              border-radius: 3vw;
+              border-radius: 5vw;
               width: 100%;
               height: 100%;
               display: flex;
               align-items: end;
               padding: 1vw;
-              padding-right: 2vw;
+              padding-right: 3vw;
               box-sizing: border-box;
               background-color: var(--graycover);
               .magazing-cover-base {
@@ -73,7 +70,7 @@
                   align-items: center;
                   height: 30%;
                   span {
-                    font-size: 2vw;
+                    font-size: 3.5vw;
                     font-family: IRAN;
                     color: var(--whitelightcolor);
                   }
@@ -84,14 +81,14 @@
                   align-items: center;
                   height: 30%;
                   span {
-                    font-size: 1.2vw;
+                    font-size: 2.3vw;
                     font-weight: normal;
                     font-family: IRAN;
                     color: var(--shadow);
                   }
                 }
                 .magazine-cover-writer {
-                  height: 20%;
+                  height: 15%;
                   justify-content: space-between;
                   width: 100%;
                   display: flex;
@@ -103,7 +100,7 @@
                     span {
                       font-family: IRAN;
                       color: var(--bordercolor);
-                      font-size: 1vw;
+                      font-size: 1.5vw;
                       &:nth-last-of-type(2) {
                         color: var(--shadow);
                         margin-left: 0.5vw;
@@ -116,7 +113,7 @@
                     display: flex;
                     .magazine-writer-by {
                       width: 40%;
-                      font-size: 1vw;
+                      font-size: 1.5vw;
                       font-weight: normal;
                       font-family: IRAN;
                       color: var(--shadow);
@@ -127,12 +124,12 @@
                     }
                     .magazine-writer-neme {
                       height: 100%;
-                      width: 60%;
+                      width: 40%;
                       color: var(--shadow);
                       display: flex;
                       align-items: center;
                       justify-content: center;
-                      font-size: 1vw;
+                      font-size: 1.5vw;
                       font-weight: normal;
                       font-family: IRAN;
                     }
@@ -146,10 +143,10 @@
                   align-items: center;
                   .magazine-cover-more-btn {
                     padding: 1vw;
-                    font-size: 1vw;
+                    font-size: 2vw;
                     font-weight: normal;
                     font-family: IRAN;
-                    color: #c4edff;
+                    color: #76e3d3;
                     box-sizing: border-box;
                   }
                 }
