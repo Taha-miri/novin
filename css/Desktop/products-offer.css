@@ -10,11 +10,12 @@
   h2 {
     display: block !important;
     width: 100vw;
-    height: 3vw;
-    line-height: 3vw;
+    height: 4vw;
+    line-height:4vw;
     font-family: IRAN;
     font-size: 1.8vw;
     font-weight: normal;
+    margin: unset;
   }
   .item-products-offer {
     width: 18vw;
@@ -80,8 +81,8 @@
           color: var(--whitelightcolor);
           text-align: center;
           height: 25%;
-        font-size: 1.8vw;
-        padding: 2vw;
+          font-size: 1.8vw;
+          padding: 2vw;
           font-family: IRAN;
           font-weight: normal;
           box-sizing: border-box;

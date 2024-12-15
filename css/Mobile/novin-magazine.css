@@ -26,7 +26,7 @@
       flex-flow: row wrap;
       justify-content: center;
       align-items: center;
-      gap: 2vw;
+      gap: 2.5vw;
       box-sizing: border-box;
       .magazine-item-pre {
         width: 44vw;
@@ -70,8 +70,9 @@
                   align-items: center;
                   height: 30%;
                   span {
-                    font-size: 3.5vw;
+                    font-size: 3.6vw;
                     font-family: IRAN;
+                    font-weight: 600;
                     color: var(--whitelightcolor);
                   }
                 }
@@ -100,7 +101,7 @@
                     span {
                       font-family: IRAN;
                       color: var(--bordercolor);
-                      font-size: 1.5vw;
+                      font-size: 1.7vw;
                       &:nth-last-of-type(2) {
                         color: var(--shadow);
                         margin-left: 0.5vw;
@@ -113,7 +114,7 @@
                     display: flex;
                     .magazine-writer-by {
                       width: 40%;
-                      font-size: 1.5vw;
+                      font-size: 1.7vw;
                       font-weight: normal;
                       font-family: IRAN;
                       color: var(--shadow);
@@ -124,12 +125,12 @@
                     }
                     .magazine-writer-neme {
                       height: 100%;
-                      width: 40%;
+                      width: 50%;
                       color: var(--shadow);
                       display: flex;
                       align-items: center;
                       justify-content: center;
-                      font-size: 1.5vw;
+                      font-size: 1.7vw;
                       font-weight: normal;
                       font-family: IRAN;
                     }
